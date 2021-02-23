@@ -16,9 +16,25 @@
     </header>
 
     <main id="content">
-      <form action=#null method="get" autocomplete="on">
+      <form action="Contact-Form" method="get" autocomplete="on">
         <fieldset>
-          
+          <ul class="lists">
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="Contacts_name">
+            </li>
+            <li>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="Contacts_phone_number">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="Contacts_email">
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea type="msg" id="message" value="Type your inquires here"></textarea>
+            </li>
         </fieldset>
       </form>
     </main>
